@@ -21,7 +21,7 @@ const Covid = ({ data, location }) => {
             prevLabel={null} nextLabel={null}
             prevIcon={<ChevronCompactLeft color="#F2950A" size={70} />}
             nextIcon={<ChevronCompactRight color="#F2950A" size={70} />}
-            interval={1500} >  
+            interval={2500} >  
             { data.slideshow.edges.map(({node})=>(
             <Carousel.Item key={node.id}>
               <GatsbyImage 
