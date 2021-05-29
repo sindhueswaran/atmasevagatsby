@@ -11,7 +11,7 @@ const query = graphql`
     totalCount
     nodes {
       childImageSharp {
-        gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG, height: 320)
+        gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED, height: 280)
       }
       name
     }
@@ -27,7 +27,7 @@ const Gallery = ({ location } ) => {
   <Layout location={location}  >
    <Seo title="Gallery" />
    <h2 className="text-title"> Gallery </h2>
-    <Container className="col-lg-12 mx-auto gallery"> 
+    <Container fluid className="gallery"> 
       {nodes.map((image, index)=>{
           const {name} = image
           const pathToImage = getImage(image)

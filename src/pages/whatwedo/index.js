@@ -29,7 +29,7 @@ const whatwedo = data.whatwedo.nodes
                     className="image"
                   /> 
                 <div>
-                  <h3 className="wwd-list-title text-center">{whatwedos.frontmatter.title}</h3> 
+                  <h3 className="wwd-list-title text-center mt-3">{whatwedos.frontmatter.title}</h3> 
                 </div>
               </div>
             </Link>   
@@ -53,7 +53,7 @@ export const query = graphql`{
         description
         img {
           childImageSharp {
-            gatsbyImageData(placeholder: TRACED_SVG, layout: CONSTRAINED)
+            gatsbyImageData(placeholder: BLURRED, layout: CONSTRAINED)
           }
         }
       }

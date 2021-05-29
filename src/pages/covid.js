@@ -13,6 +13,7 @@ const Covid = ({ data, location }) => {
     return (
       <Layout location={location} title={siteTitle}> 
       <Seo title="Covid-19" /> 
+
       <Container className="col-lg-10 mx-auto">
         <Row className="col-12 col-md-8 col-lg-6 mx-auto">  
           <Carousel 
@@ -56,7 +57,7 @@ export const pageQuery = graphql`
           id
           base
           childImageSharp {
-            gatsbyImageData(width: 640, height: 480, placeholder: TRACED_SVG, transformOptions: {cropFocus: CENTER, fit: COVER})
+            gatsbyImageData(width: 640, height: 480, placeholder: BLURRED, transformOptions: {cropFocus: CENTER, fit: COVER})
           }
         }
       }
