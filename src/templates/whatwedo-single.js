@@ -92,13 +92,14 @@ export const pageQuery = graphql`
           childImageSharp {
             gatsbyImageData(
               layout: CONSTRAINED
+              placeholder: BLURRED 
               transformOptions: {fit: FILL, cropFocus: CENTER}
             )
           }
         }
         img {
           childImageSharp {
-            gatsbyImageData(placeholder: TRACED_SVG, layout: FULL_WIDTH)
+            gatsbyImageData(placeholder: BLURRED, layout: FULL_WIDTH)
           }
         }
       }
