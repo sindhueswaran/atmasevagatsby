@@ -16,7 +16,7 @@ const Support = ({ data, location }) => {
             <Col className= "text-center" > 
               <h2 className="text-title">Support the Seva</h2>  
                 <p className="col-md-6 mx-auto text-center ">
-                  If you would like to contribute towards Atma Seva’s efforts,
+                  If you would like to contribute towards Atma Seva’s efforts, <br/>
                   please do get in touch so we can send you the details.</p>     
                 <a className="email-text  text-center" href="mailto:{email}" target="_top"> {email} </a>  
             </Col>   

@@ -167,15 +167,10 @@ p {
   display: flex; 
   flex-wrap: wrap;
  }
-
-.gallery-item {
+ 
+.gatsby-image-wrapper  {
   margin: 0 0.2rem;
- }
-
-.gallery-image{
-  border-radius: 0.2rem;
- }
-
+}
 
 
 /*------ FOOTER ------*/
@@ -206,8 +201,7 @@ footer{
 
 
 
-/* testing----------------------------------------------------*/
-
+/* ------ CAROUSEL ------ */
 
 .carousel-fade .carousel-item {
 	opacity: 0;

@@ -70,6 +70,30 @@ const Seo = ({ description, lang, meta, title }) => {
           name: `twitter:description`,
           content: metaDescription,
         },
+        // {
+        //   property: `og:url`,
+        //   content: siteUrl
+        // },
+        // {
+        //   property: `og:type`,
+        //   content: article
+        // },
+        {
+          property: `og:title`,
+          content: title
+        },
+        {
+          property: `og:description`,
+          content: metaDescription
+        },
+        // // {
+        // //   property: `og:image`,
+        // //   content: logo
+        // },
+        {
+          property: `fb:app_id`,
+          content: site.siteMetadata?.social?.facebook || ``,
+        }
       ].concat(meta)}
     />
   )

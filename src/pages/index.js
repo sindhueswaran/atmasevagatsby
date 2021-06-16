@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo" 
 import { GatsbyImage } from "gatsby-plugin-image"
-import { Col, Row, Container  } from "react-bootstrap"
+import { Row, Container  } from "react-bootstrap"
 import Carousel from 'react-bootstrap/Carousel' 
 import { ChevronCompactLeft, ChevronCompactRight  } from 'react-bootstrap-icons';
 
@@ -20,7 +20,7 @@ const Index = ({ data, location }) => {
               prevLabel={null} nextLabel={null}
               prevIcon={<ChevronCompactLeft color="#F2950A" size={70} />}
               nextIcon={<ChevronCompactRight color="#F2950A" size={70} />}
-              interval={3500} >  
+              interval={2500} >  
                 { data.slideshow.edges.map(({node})=>(
                   <Carousel.Item key={node.id}>
                     <GatsbyImage 
@@ -58,7 +58,7 @@ export const pageQuery = graphql`
           childImageSharp {
             gatsbyImageData( 
               height: 600
-              width: 900
+              width: 800
               placeholder: BLURRED 
               transformOptions: {cropFocus: CENTER, fit: COVER}
               layout: CONSTRAINED
