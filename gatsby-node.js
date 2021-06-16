@@ -100,6 +100,8 @@ exports.createSchemaCustomization = ({ actions }) => {
 
     type Social {
       twitter: String
+      instagram: String
+      facebook: String
     }
 
     type MarkdownRemark implements Node {

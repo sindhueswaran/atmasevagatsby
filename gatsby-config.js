@@ -4,14 +4,26 @@ module.exports = {
     description: `Providing support, in Health care, Welfare and Education for Vulnerable, Marginalised, Women, Children and the Elderly in Uttarakhand, India .`,
     siteUrl: `https://www.atmaseva.co.uk/`,
     email: `atmaseva108@gmail.com`,
+    logo: `src/images/atmasevalogo.png`,
     author: {
       name: `Mogs`,
       summary: `lives and works in Rishikesh.`,
+    },
+    social: {
+      twitter: `atma.tattwa`,
+      instagram: `atma.tattwa`,
+      facebook: `AtmaSeva108`,
     },
   },
   plugins: [
     `gatsby-plugin-image`,
     'gatsby-plugin-draft',
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-netlify`,
+    `gatsby-remark-prismjs`,
+    `gatsby-remark-copy-linked-files`,
+    `gatsby-remark-smartypants`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -55,14 +67,10 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          `gatsby-remark-prismjs`,
-          `gatsby-remark-copy-linked-files`,
-          `gatsby-remark-smartypants`,
         ],
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    
     // {
     //   resolve: `gatsby-plugin-google-analytics`,
     //   options: {
