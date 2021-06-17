@@ -16,6 +16,13 @@ module.exports = {
     },
   },
   plugins: [
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-NXGBTLX",
+        includeInDevelopment: false,
+      },
+    },
     `gatsby-plugin-image`,
     'gatsby-plugin-draft',
     `gatsby-transformer-sharp`,
@@ -77,21 +84,15 @@ module.exports = {
     //     trackingId: `ADD YOUR TRACKING ID HERE`,
     //   },
     // },
-    {
-      resolve: `gatsby-plugin-google-gtag`,
-      options: {
-        // You can add multiple tracking ids and a pageview event will be fired for all of them.
-        trackingIds: [
-          "GTM-NXGBTLX", // Google Analytics / GA
-        ],
-      },
-    },
-    {
-      resolve: "gatsby-plugin-google-tagmanager",
-      options: {
-        id: "GTM-NXGBTLX",
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-google-gtag`,
+    //   options: {
+    //     // You can add multiple tracking ids and a pageview event will be fired for all of them.
+    //     trackingIds: [
+    //       "GTM-NXGBTLX", // Google Analytics / GA
+    //     ],
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-feed`,
       options: {
