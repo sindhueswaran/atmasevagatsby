@@ -87,6 +87,12 @@ module.exports = {
       },
     },
     {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-NXGBTLX",
+      },
+    },
+    {
       resolve: `gatsby-plugin-feed`,
       options: {
         query: `
