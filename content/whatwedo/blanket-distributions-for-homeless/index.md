@@ -5,7 +5,7 @@ description : "During cold winter months we aim to give as many blankets as poss
 tags : ["distributions"]
 categories : ["whatwedo"]
 slug : "blanket-distributions-for-homeless"
-img : "./1.jpg"
+img : "./7.jpg"
 set:
     - "./1.jpg"
     - "./2.jpg"
@@ -13,6 +13,10 @@ set:
     - "./4.jpg"
     - "./5.jpg"
     - "./6.jpg"
+    - "./7.jpg"
+    - "./8.jpg"
+    - "./9.jpg"
+    - "./10.jpg"
 weight : 4
 ---
 
