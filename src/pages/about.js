@@ -28,8 +28,6 @@ const About = ({ data, location }) => {
             <br/><br/> 
             Since Atma Seva’s inception Atma has been the key worker and primary financial support via modest personal funds and assisted by grace, blessings and contributions from kind friends and family. 
             <br/><br/> 
-//             Atma Seva has been blessed with sevaks’ helping hands from Argentina, Australia, Brazil, Bulgaria, Chile, China, Croatia, Denmark, Finland, France, Germany, Hungary, India, Ireland, Korea, Lithuania, Mexico, Morocco, Russia, Spain, Ukraine, Uruguay, UK & USA.
-//             <br/><br/> 
             Founded on an ethos of Seva or voluntary service from the heart, Atma Seva is apolitical and non-religious. We are committed to establishing direct contact with beneficiaries, regardless of ethnicity, faith or caste, to understand their needs and capacities.
             <br/><br/> 
             <h3>About SEVA… </h3> 
