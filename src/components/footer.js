@@ -16,7 +16,7 @@ const Footer = () => {
                 <ListGroup.Item variant="dark"><Link to="/about" className="footer-nav-link" activeClassName="active">About</Link> </ListGroup.Item>
                 <ListGroup.Item variant="dark"><Link to="/whatwedo" className="footer-nav-link"  activeClassName="active">What We Do</Link> </ListGroup.Item>
                 <ListGroup.Item variant="dark"><Link to="/contact" className="footer-nav-link"  activeClassName="active">Contact</Link></ListGroup.Item>
-                <ListGroup.Item variant="dark"><Link to="/donate" className="footer-nav-link"  activeClassName="active">Donate</Link></ListGroup.Item>
+                <ListGroup.Item variant="dark"><Link to="/support" className="footer-nav-link"  activeClassName="active">Support</Link></ListGroup.Item>
             </ListGroup> 
           </Container>
       </footer>
