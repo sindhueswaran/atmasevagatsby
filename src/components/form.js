@@ -15,7 +15,7 @@ const Form = () => {
                 <input type="text" name="name" className="form-control text-center rounded-0" placeholder="Your Name"/> 
               </div>
               <div className="mb-3"> 
-                <input type="text" name="email" className="form-control text-center rounded-0" placeholder="Your Email"/> 
+                <input type="email" name="email" className="form-control text-center rounded-0" placeholder="Your Email"/> 
               </div>
               <div className="mb-3 ">
                 <textarea name="message" className="form-control text-center rounded-0" rows="3" placeholder="Your Message"></textarea>
