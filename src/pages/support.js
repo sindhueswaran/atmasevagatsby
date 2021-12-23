@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import {  Col, Container  } from "react-bootstrap"
+import Form from "../components/form"
 // import { StaticImage } from "gatsby-plugin-image"
 
 const Support = ({ data, location }) => {
@@ -20,6 +21,9 @@ const Support = ({ data, location }) => {
                   please do get in touch so we can send you the details.</p>     
                 <a className="email-text  text-center" href="mailto:{email}" target="_top"> {email} </a>  
             </Col>   
+            <div className="col-md-8 mx-auto">
+            <Form/>
+            </div>
           </Container>   
       </Layout>
     )
