@@ -22,7 +22,7 @@ const ThankYou = ({ data, location }) => {
                 <a className="email-text  text-center" href="mailto:{email}" target="_top"> {email} </a>  
             </Col>   
             <div className="col-md-8 mx-auto">
-            <h3> Thank you for your message. </h3>
+            <h3 className="text-title"> Thank you for your message. </h3>
             </div>
           </Container>   
       </Layout>
